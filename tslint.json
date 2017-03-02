@@ -4,7 +4,7 @@
         "no-empty-interface": true,
         "only-arrow-functions": [
             true,
-            "allow-declarations",
+            "allow-declarations"
         ],
         "prefer-for-of": true,
         "no-for-in-array": true,
