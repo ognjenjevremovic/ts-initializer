@@ -1,0 +1,95 @@
+{
+    "no-any" : true,
+    "no-empty-interface": true,
+    "only-arrow-functions": [
+        true,
+        "allow-declarations",
+        "allow-named-functions"
+    ],
+    "prefer-for-of": true,
+    "no-for-in-array": true,
+    "no-construct": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-invalid-this": true,
+    "no-unused-variable": [
+        true,
+        "react",
+        { "ignore_pattern": "^_" }
+    ],
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "restrict-plus-operands": true,
+    "strict-type-predicates": true,
+    "switch-default": true,
+    "triple-equals": true,
+    "typeof-compare": true,
+    "use-isnan": true,
+    "eofline": true,
+    "indent": [true, "tabs"],
+    "no-require-imports": true,
+    "prefer-const": true,
+    "trailing-comma": [
+        true,
+        { "multiline": "never", "singleline": "never"}
+    ],
+    "arrow-return-shorthand": [true],
+    "class-name": true,
+    "comment-format": [
+        true,
+        "check-lowercase",
+        { "ignore-words": ["TODO"] }
+    ],
+    "interface-name": [
+        true,
+        "always-prefix"
+    ],
+    "interface-over-type-literal": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-boolean-literal-compare": true,
+    "no-consecutive-blank-lines": [
+        true,
+        2
+    ],
+    "no-trailing-whitespace": [
+        true,
+        "ignore-jsdoc"
+    ],
+    "object-literal-shorthand": true,
+    "one-variable-per-declaration": true,
+    "prefer-method-signature": true,
+    "quotemark": [
+        true,
+        "single",
+        "avoid-escape"
+    ],
+    "semicolon": [
+        true,
+        "always"
+    ],
+    "space-before-function-paren": [
+        true,
+        { "anonymous": "never", "named": "always", "asyncArrow": "always", "method": "never", "constructor": "never" }
+    ],
+    "variable-name": [
+        true,
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+    ],
+    "max-file-line-count": [
+        true,
+        220
+    ],
+    "max-line-length": [
+        true,
+        150
+    ],
+    "align": [
+        true,
+        "statements"
+    ],
+    "newline-before-return": true
+}
