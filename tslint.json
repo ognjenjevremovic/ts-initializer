@@ -29,7 +29,7 @@
         "eofline": true,
         "indent": [
             true,
-            "tabs"
+            "spaces"
         ],
         "no-require-imports": true,
         "prefer-const": true,
@@ -43,7 +43,6 @@
         "class-name": true,
         "comment-format": [
             true,
-            "check-lowercase",
             { "ignore-words": [ "TODO" ] }
         ],
         "interface-name": [
@@ -72,7 +71,7 @@
         ],
         "space-before-function-paren": [
             true,
-            { "anonymous": "never", "named": "always", "asyncArrow": "always", "method": "never", "constructor": "never" }
+            { "anonymous": "never", "named": "never", "asyncArrow": "always", "method": "never", "constructor": "never" }
         ],
         "variable-name": [
             true,
@@ -83,11 +82,11 @@
         ],
         "max-file-line-count": [
             true,
-            200
+            280     //  general rule of thumb for code maintainability
         ],
         "max-line-length": [
             true,
-            120
+            160     //  no lengthy ternaries 
         ],
         "align": [
             true,
