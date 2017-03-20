@@ -14,12 +14,15 @@ To install TypeScript globaly, run the command from your terminal/shell
 ```sh
 $ npm install -g typescript
 ```
+&nbsp;
 
 To install TypeScript localy in your project (as a dev dependancy), run the command from your terminal/shell
 ```sh
 $ npm install typescript --save-dev
 ```
-*Reason to install TypeScript as a dev dependancy instead of a production dependancy module (when installing it locally), is that you'll only be needing TypeScript during development and for compilation of your *.ts files.*
+&nbsp;
+
+*Reason to install TypeScript as a dev dependancy instead of a production dependancy module (when installing it locally), is that you'll only be needing TypeScript during development and for compilation of your .ts files.*
 
 &nbsp;
 
@@ -34,7 +37,7 @@ $ tsc --init
 
 or
 
- 1. copy the compiler configuration from this repo (*tsconfig.json* file content) and paste it in your *tsconfig.json* project file.
+ 2. copy the compiler configuration from this repo (*tsconfig.json* file content) and paste it in your *tsconfig.json* project file.
 
 &nbsp;
 
@@ -49,7 +52,7 @@ $ tslint --init
 
 or
 
- 1. copy the linting configuration from this repo (*tsconfig.json* file content) and paste it in your *tslint.json* project file.
+ 2. copy the linting configuration from this repo (*tsconfig.json* file content) and paste it in your *tslint.json* project file.
 
 &nbsp;
 
