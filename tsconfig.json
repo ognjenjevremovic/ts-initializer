@@ -8,6 +8,7 @@
         "sourceMap": true,
         "removeComments": false,
         "outDir": "dist",
+        "alwaysStrict": true,
         "declaration": true,
         "lib": [
             "es5",
